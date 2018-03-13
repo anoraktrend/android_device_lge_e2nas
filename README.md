@@ -10,7 +10,7 @@ CHIPSET | Qualcomm MSM8926 Snapdragon 400
 GPU     | Adreno 305
 Memory  | 1GB RAM
 Shipped Android Version | 4.4.2
-Storage | 8GB
+Storage | 4GB
 MicroSD | Up to 32GB
 Battery | 2100 mAh
 Dimensions | 127.5 x 67.9 x 10.6 mm
