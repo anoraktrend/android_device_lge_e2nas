@@ -33,3 +33,13 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 1585446912
 
 # inherit from the proprietary version
 -include vendor/lge/e2nas/BoardConfigVendor.mk
+
+ifneq ($(HOST_OS),darwin)
+
+SDCLANG := true
+
+SDCLANG_PATH := prebuilts/clang/linux-x86/host/sdclang-3.8/bin
+
+SDCLANG_LTO_DEFS := device/qcom/common/sdllvm-lto-defs.mk
+
+endif
